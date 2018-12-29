@@ -1,6 +1,5 @@
 package org.gobinda;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -22,10 +21,10 @@ import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.awt.event.ActionEvent;
-import javax.swing.JTextField;
 
 public class MainApplication extends JFrame {
 
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JLabel outputLabel;
 
